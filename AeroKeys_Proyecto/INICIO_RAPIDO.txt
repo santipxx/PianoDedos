@@ -1,0 +1,16 @@
+AEROKEYS - JINGLE BELLS CON NOTAS QUE CAEN
+
+1. Abre la carpeta del proyecto en VS Code.
+2. Verifica en la terminal: python --version
+   Si no tienes Python, instala la version 3.11 y reinicia VS Code.
+3. Ejecuta INSTALAR_WINDOWS.bat (solo la primera vez).
+4. Ejecuta DEMO_JINGLE.bat para ver caer y escuchar las notas.
+5. Ejecuta JUGAR_JINGLE.bat para jugar con la camara.
+
+Si falla la camara, en la terminal de VS Code usa:
+  .\.venv\Scripts\python.exe aerokeys.py --game --no-camera
+
+Teclas: A S D F G H J K L ;
+F1 piano libre | F2 demo | F3 juego | ESPACIO reiniciar | F12 captura
+
+Mas instrucciones en README.md
